@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.forms-main {
+    border: 2px solid red;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    height: 93vh;
+}
+
+.forms-h2 {
+    text-decoration: underline;
+}
+
+.forms-wrapper {
+    border: 2px solid blue;
+    text-align: left;
+}
+
+input {
+    text-align: justify;
+}
