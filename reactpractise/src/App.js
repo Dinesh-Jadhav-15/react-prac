@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import Forms from './components/form/Forms';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Forms from "./components/form/Forms";
 
 function App() {
   return (
