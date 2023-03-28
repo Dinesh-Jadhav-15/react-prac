@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Details.css";
 
 const Details = ({ name, email, password, gender, info }) => {
+  const [count, setCount] = useState(0);
   return (
     <div className="details-wrapper">
       <h2>Details</h2>
@@ -36,6 +37,10 @@ const Details = ({ name, email, password, gender, info }) => {
           </tr>
         </tbody>
       </table>
+      <div>
+        <h2>{count}</h2>
+        <button onClick={() => setCount(count + 1)}>add</button>
+      </div>
     </div>
   );
 };

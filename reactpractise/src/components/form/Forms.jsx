@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import swal from "sweetalert";
 import Details from "../details/Details";
 import "./Forms.css";
 
@@ -11,6 +12,7 @@ function Forms() {
 
   function Register(event) {
     event.preventDefault();
+    swal("Registration sucessfully of !", name);
     console.log(
       "Registration Details : " + name + " " + email + " " + password + " "
     );
@@ -109,14 +111,14 @@ function Forms() {
 
               <input
                 type="radio"
-                id="transgender"
+                id="others"
                 name="gender"
-                value="transgender"
-                checked={gender === "transgender"}
+                value="others"
+                checked={gender === "others"}
                 onChange={(e) => setGender(e.target.value)}
               />
-              <label for="transgender" className="radio">
-                Transgender
+              <label for="others" className="radio">
+                others
               </label>
             </div>
             <hr />
