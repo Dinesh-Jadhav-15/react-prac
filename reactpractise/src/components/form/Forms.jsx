@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import swal from "sweetalert";
+import FootallGet from "../apicalls/FootallGet";
 import Details from "../details/Details";
 import "./Forms.css";
 
@@ -142,6 +143,7 @@ function Forms() {
         gender={gender}
         info={info}
       />
+      <FootallGet />
     </>
   );
 }
