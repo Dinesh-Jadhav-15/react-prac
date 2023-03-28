@@ -1,0 +1,49 @@
+.list-wrapper {
+    margin-top: 3%;
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 2%
+}
+
+.list-update {
+    background: transparent;
+    background: #6679d6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 5px 0px;
+    margin: 10px auto;
+    perspective: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .308);
+    width: 48%;
+}
+
+.list-update button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(203, 104, 104, 0.41) 35%, rgba(0, 245, 255, 0.8801645658263305) 100%);
+}
+
+.list-delete {
+    background: transparent;
+    background: #df1732;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 5px 0px;
+    margin: 10px auto;
+    perspective: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(198, 131, 131, 0.658);
+    width: 48%;
+    margin-left: 2%;
+
+}
+
+.list-delete:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(194, 112, 117, 0.41) 35%, rgba(0, 245, 255, 0.8801645658263305) 100%);
+}
