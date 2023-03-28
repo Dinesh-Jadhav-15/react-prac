@@ -131,7 +131,9 @@ function Forms() {
                 </a>
                 .
               </p>{" "}
-              <button type="submit">Submit</button>
+              <button className="form-submit" type="submit">
+                Submit
+              </button>
             </div>
           </form>
         </div>

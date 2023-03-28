@@ -134,7 +134,7 @@ input[type=password] {
     text-align: center;
 }
 
-button {
+.form-submit {
     background: transparent;
     background: #1c87c9;
     font-size: 14px;
@@ -149,7 +149,7 @@ button {
     width: 100%;
 }
 
-button:hover {
+.form-submit:hover {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 92, 121, 0.4095763305322129) 35%, rgba(0, 245, 255, 0.8801645658263305) 100%);
 }
